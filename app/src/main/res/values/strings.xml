@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UniMakInventory</string>
+    <string name="welcome_to_the_inventory_management_system">Welcome to the inventory management system!</string>
+    <string name="app_logo">App Logo</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="view_items">View Items</string>
+    <string name="add_item">Add Item</string>
+    <string name="description">Description</string>
+    <string name="unimak_inventory_management">UniMak Inventory Management</string>
+    <string name="quantity">Quantity</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_list">Item List</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+</resources>

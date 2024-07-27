@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "606362265687",
+    "project_id": "unimakinventory-7b8be",
+    "storage_bucket": "unimakinventory-7b8be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606362265687:android:fd747d560db9b24dab9b12",
+        "android_client_info": {
+          "package_name": "com.progammer.unimakinventory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQp8Om_Aq2xH5lPKrMaem8tu-T6u2lJkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/unimak"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/unimak"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UniMakInventory"
+        tools:targetApi="31">
+
+        <!-- Splash Screen Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UniMakInventory">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Register Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UniMakInventory"/>
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UniMakInventory"/>
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UniMakInventory"/>
+
+        <!-- Add Item Activity -->
+        <activity
+            android:name=".AddItemActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UniMakInventory"/>
+
+        <!-- View Items Activity -->
+        <activity
+            android:name=".ItemsAdapter"
+            android:exported="true"
+            android:theme="@style/Theme.UniMakInventory"/>
+    </application>
+</manifest>
